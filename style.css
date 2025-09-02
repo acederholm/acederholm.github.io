@@ -1,3 +1,4 @@
 body {
- background-color: #cb0850;
+ background-image: url('images/caterpillar.jpg');
+ background-size: cover;
 }
