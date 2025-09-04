@@ -26,6 +26,8 @@ section.main {
   flex: 3;
   padding: 20px;
   box-sizing: border-box;
+  background: #ff0066;
+  border-radius: 25px;
 }
 
 /* Sidebar (right column) */
@@ -33,6 +35,8 @@ aside {
   flex: 1;
   padding: 20px;
   box-sizing: border-box;
+  background: black;
+  border-radius: 25px;
 }
 
 /* Make layout stack on smaller screens */
