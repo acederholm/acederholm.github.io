@@ -5,6 +5,8 @@ body {
  font-family: "Impact", sans-serif;
  font-weight: 100;
  color: black;
+ display: flex;
+ flex-wrap: wrap; /* Create a flex cintainer for layout */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,4 +19,30 @@ a {
 
 a:visited {
   text-decoration: line-through;
+}
+
+/* Main content (left column) */
+section.main {
+  flex: 3;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Sidebar (right column) */
+aside {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Make layout stack on smaller screens */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  section.main,
+  aside {
+    flex: 100%;
+  }
 }
