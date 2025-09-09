@@ -1,7 +1,7 @@
 body {
- margin: 0
+ margin: 0;
  min-height: 100vh;
- background: black
+ background: black;
  font-family: "Impact", sans-serif;
  font-weight: 100;
  color: white;
@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  cp;pr: white;
+  color: white;
 }
 
 a:visited {
@@ -26,7 +26,7 @@ section.main {
   flex: 3;
   padding: 20px;
   box-sizing: border-box;
-  background: #ff0066;
+  background: black;
   border-radius: 25px;
 }
 
