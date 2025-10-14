@@ -2,7 +2,7 @@ body {
   margin: 0.5in;
   min-height: 100vh;
   background: black;
-  font-family: "Impact", sans-serif;
+  font-family: "Times new roman", sans-serif;
   font-weight: 100;
   color: white;
   display: flex;
@@ -11,7 +11,7 @@ body {
 
 h1 {
   font-family:"Impact", sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
 }
 h6 {text-align:center;}
