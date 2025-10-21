@@ -40,6 +40,14 @@ a:visited {
   text-decoration: line-through;
 }
 
+header {
+  background-image: url('images/header.jpg');
+  background-size; cover;
+  padding; 10vw 20vw;
+}
+header h1 {
+  background-color: black;
+  padding: 20px
 section {
 border-bottom: 1px solid white;
 padding: 30px 20vw;
