@@ -6,7 +6,10 @@ body {
   font-weight: 100;
   color: white;
   display: flex;
-  flex-wrap: wrap; /* Create a flex container for layout */
+}
+
+.flex {
+  display: flex;
 }
 
 h1 {
