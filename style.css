@@ -30,35 +30,7 @@ a:visited {
   text-decoration: line-through;
 }
 
-/*Header (top) */
-
-
-/* Main content (left column) */
-section.main {
-  flex: 3;
-  padding: 20px;
-  box-sizing: border-box;
-  background: black;
-  border-radius: 25px;
-}
-
-/* Sidebar (right column) */
-aside {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
-  background: black;
-  border-radius: 25px;
-}
-
-/* Make layout stack on smaller screens */
-@media (max-width: 768px) {
-  body {
-    flex-direction: column;
-  }
-
-  section.main,
-  aside {
-    flex: 100%;
-  }
+section {
+border-bottom: 1px solid white;
+padding: 30px 20vw;
 }
