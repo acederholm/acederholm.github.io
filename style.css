@@ -11,6 +11,10 @@ body {
   display: flex;
 }
 
+.left, .right {
+  width 50%
+}
+
 h1 {
   font-family:"Impact", sans-serif;
   font-size: 4em;
