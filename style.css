@@ -12,8 +12,11 @@ body {
   gap: 2vw;
 }
 
-.left, .right {
-  width: 50%;
+.large {
+  width: 75%;
+}
+.small {
+  width: 25%
 }
 
 .image img, .stages img {
