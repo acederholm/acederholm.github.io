@@ -35,14 +35,16 @@ body {
 h1 {
   font-family:"Impact", sans-serif;
   font-size: 4em;
-  text-align: center;
 }
-h6 {text-align:center;}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Impact", sans-serif;
+h2 {
+  font-family:"Impact", sans-serif;
 }
-
+h6 {
+  text-align:center;
+}
+h3, h4, h5, h6 {
+  font-family: "Times New Roman", sans-serif;
+}
 a {
   color: white;
 }
@@ -58,7 +60,13 @@ header {
 }
 header h1 {
   background-color: black;
-  padding: 20px;
+  padding: 15px;
+  text-align: center;
+}
+header h2{
+  background-color: black;
+  padding: 10px;
+  text-align: center;
 }
 section {
 border-bottom: 1px solid white;
